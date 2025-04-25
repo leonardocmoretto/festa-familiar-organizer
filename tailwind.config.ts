@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for the family event system
+				festa: {
+					peach: '#F1BA88',
+					mint: '#E9F5BE',
+					green: '#81E7AF',
+					teal: '#03A791',
 				}
 			},
 			borderRadius: {
